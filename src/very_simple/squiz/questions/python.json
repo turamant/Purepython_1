@@ -1,0 +1,168 @@
+
+[
+
+{
+    "question": "Что такое Python?",
+    "answers": [
+        "Язык программирования",
+        "Компилятор языка",
+        "Операционная система",
+        "Редактор"
+    ]
+},
+
+{
+    "question": "Какое расширение есть у файлов с кодом Python?",
+    "answers": [
+        ".py", ".pyc", ".python", ".pyf"
+    ]
+},
+
+{
+    "question": "Какая инструкция добавляет элемент 'a', в список 'b'?",
+    "answers": [
+        "b.append(a)", "a.append(b)", "a.append('b')", "append(a, b)"
+    ]
+},
+
+{
+    "question": "Какая инструкция добавляет ключ 'foo' со значением 'бар' в словарь 'd'?",
+    "answers": [
+        "d['foo'] = 'bar'", "d.append('foo', 'bar')", "d{'foo'} = 'bar'", "d.foo = 'bar'"
+    ]
+},
+
+{
+    "question": "Какая инструкция суммирует цифры в списке:\npay = [1, 2, 3, 999, 21, 13, 91212, 12312312312]",
+    "answers": [
+        "sum(pay)", "pay.sum()", "pay[sum]", "sum[pay]"
+    ]
+},
+
+{
+    "question": "Какая инструкция соединяет две строки:\na='foo' i b='bar'",
+    "answers": [
+        "a + b", "a ** b", "a.concat(b)", "'a' + 'b'"
+    ]
+},
+
+{
+    "question": "Какое ключевое слово не используется в Python?",
+    "answers": [
+        "function", "class", "def", "return"
+    ]
+},
+
+{
+    "question": "Как вызывается конструктор класса?",
+    "answers": [
+        "__init__()", "class", "str()", "def"
+    ]
+},
+
+{
+    "question": "Какое ключевое слово не используется в Python?",
+    "answers": [
+        "cancel", "finally", "break", "continue"
+    ]
+},
+
+{
+    "question": "Какая инструкция не возвращает список:\ndata = [(9, 0), (1, 2), (3, 4)]",
+    "answers": [
+        "filter(lambda a: sum(a) > 5, data)",
+        "max(data, key=lambda a: max(a))",
+        "sorted(data, key=lambda a: a[0], reverse=False)",
+        "min(data, key=lambda a: max(a))"
+    ]
+},
+
+{
+    "question": "Что возвращается в следующей интсрукции?:\ndata = [(9, 0), (1, 2), (3, 4), (7, 5)]\nprint(min(data, key=lambda a: max(a)))",
+    "answers": [
+        "(1,2)",
+        "(9,0)",
+        "(3,4)",
+        "(7,5)"
+    ]
+},
+
+{
+    "question": "Что выведет следующая инструкция:\na = '?PDYJTAHNOGNO'\nprint(a[2::2])",
+    "answers": [
+        "DJANGO", "DG", "PYTHON", "pusty string"
+    ]
+},
+
+{
+    "question": "Что определяет число 0?\na = [1, 2, [7, 8, 9], 3, [4, 6, [1, 0]]]",
+    "answers": [
+        "a[4][2][1]", "a[5][3][2]", "a[6][1]", "a[9]"
+    ]
+},
+
+{
+    "question": "Какое утверждение является правильным:\na = 'aBcDeF'",
+    "answers": [
+        "a.upper()", "upper(a)", "a(upper)", "a.upper"
+    ]
+},
+
+{
+    "question": "Как будет выглядеть список, после следующих инструкций:\nour_list = ['a','b', 'c']\n our_list.append('z')\nour_list.pop()\nour_list.pop(-2)\nour_list.remove('c')\nprint(our_list)'",
+    "answers": [
+        "['a']", "['b']", "['c']", "['z']"
+    ]
+},
+
+{
+    "question": "Какое утверждение неверно?",
+    "answers": [
+        "import randint",
+        "import random",
+        "from random import random",
+        "from random import randint"
+    ]
+},
+
+{
+    "question": "Как мы можем добавить данные в существующий файл?",
+    "answers": [
+        "open(file_name, 'a')",
+        "open(file_name, 'w')",
+        "open(file_name, 'r')",
+        "open(file_name, 'wb')"
+    ]
+},
+
+{
+    "question": "Какое ключевое слово позволяет нам опустить file.close()?",
+    "answers": [
+        "with", "except", "metaclass", "pass"
+    ]
+},
+
+{
+    "question": "Кто изобрел Python?",
+    "answers": [
+        "Guido van Rossum",
+        "Linus Torvalds",
+        "Steve Jobs",
+        "Ada Lovelace"
+    ]
+},
+
+{
+    "question": "Что такое pandas",
+    "answers": [
+        "Библиотека", "Функция", "Класс", "Таблица"
+    ]
+},
+
+{
+    "question": "Что такое raise",
+    "answers": [
+        "Возбуждает указанное исключение", "Экстренный выход из функции", "Генератор классов", "Не из языка Python"
+    ]
+}
+]

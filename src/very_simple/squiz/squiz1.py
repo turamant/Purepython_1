@@ -1,4 +1,3 @@
-
 score = 0
 
 def answer_yes_no(ans, msg):

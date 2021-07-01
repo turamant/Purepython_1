@@ -1,0 +1,4 @@
+squiz_oop.py
+__pycache__/
+*.pyc
+.idea
