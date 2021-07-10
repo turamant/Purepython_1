@@ -33,7 +33,7 @@ def main():
 
     else:
         tag = city.tags[1]
-        print(tag)
+        print(tag.json())
 
 
 if __name__=='__main__':
